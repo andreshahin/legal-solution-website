@@ -101,11 +101,14 @@
                 <p class="font-Poppins text-[#E7E7E7] text-sm md:text-lg">There are many variations of passages of Lorem
                     Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour.</p>
-                <div class="space-x-4">
-                    <input class="py-2 pr-16 pl-4 md:py-4 md:pl-5 md:pr-24 p text-dark3 bg-white rounded-lg" type="text"
+                <div class="flex gap-3">
+                    <input class="h-10 flex-1 text-dark3 bg-white rounded-lg px-3" type="text"
                         placeholder="Search your services">
+
                     <button
-                        class=" bg-btn-primary-bg text-white text-lg font-semibold border-none p-2 md:px-5 md:py-3 rounded-lg">Search</button>
+                        class="bg-btn-primary-bg text-white text-lg font-semibold border-none px-4 py-1 md:py-1 rounded-lg">
+                        Search
+                    </button>
                 </div>
             </div>
         </div>
@@ -223,7 +226,7 @@
 
             <!-- silder container -->
             <div class="relative">
-                <div class="carousel w-full max-h-[600px]">
+                <div class="carousel w-full md:max-h-[600px]">
 
                     <!-- slider1 -->
                     <div id="slide1" class="carousel-item relative w-full">
@@ -486,10 +489,12 @@
         <form>
             <h6 class="footer-title text-white">Subscribe</h6>
             <fieldset class="w-80">
-                <p class="text-white mb-3">Subscribe for our latest <br> & Articles. We Won’t <br> Give You Spam Mails</p>
-                <div class="join">
-                    <input type="text" placeholder="Email address" class="input input-bordered join-item" />
-                    <button class="btn bg-btn-primary-bg text-white text-lg font-semibold border-none">Subscribe</button>
+                <p class="text-white mb-3">Subscribe for our latest <br> & Articles. We Won’t <br> Give You Spam Mails
+                </p>
+                <div class="join flex flex-col lg:flex-row">
+                    <input type="text" placeholder="Email address" class="input input-bordered join-item mb-4" />
+                    <button
+                        class="btn bg-btn-primary-bg text-white text-lg font-semibold border-none">Subscribe</button>
                 </div>
             </fieldset>
         </form>
